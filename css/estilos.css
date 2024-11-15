@@ -1,0 +1,281 @@
+@font-face {
+    font-family: 'Romanesco';
+    src: url('../fonts/Romanesco-Regular.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'Inter';
+    src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
+    font-weight: normal;
+    font-style: normal;
+} 
+
+/*align-items*/
+.kv-align-items-center{align-items: center}
+
+/*background*/
+.kv-background-A3A656{background: #A3A656}
+
+/*color*/
+.kv-color-amarillo :hover {color: #FFFF00}
+.kv-color-negro{color: #000000}
+
+/*display*/
+.kv-display-flex{display: flex}
+.kv-display-inline-block{display: inline-block}
+
+/*font*/
+.kv-font-family-LucidaSans{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
+.kv-font-family-Inter{font-family: 'Inter'}
+.kv-font-size-14{font-size: 14px}
+.kv-font-size-16{font-size: 16px}
+
+/*gap*/
+.kv-gap-10{gap: 10px}
+.kv-gap-15{gap: 15px}
+.kv-gap-40{gap: 40px}
+
+/*height*/
+.kv-height-70{height: 70px}
+.kv-height-100{height: 100%}
+
+/*justify*/
+.kv-justify-content-space-between{justify-content: space-between}
+
+/*list*/
+.kv-list-style-none{list-style: none}
+
+/*margin*/
+.kv-margin-0{margin: 0px auto}
+
+/*object*/
+.kv-object-fit-cover{object-fit: cover}
+
+/*padding*/
+.kv-padding-0-0{padding: 0px 0px}
+.kv-padding-left-70{padding-left: 70px} 
+.kv-padding-right-10{padding-right: 10px;}
+.kv-padding-right-20{padding-right: 20px;}
+
+/*text*/
+.kv-text-decoration-none{text-decoration: none}
+.kv-text-transform-uppercase{text-transform: uppercase}
+
+/*width*/
+.kv-width-100{width: 100%}
+
+
+/*Faltantes*/
+.texto-sobre-imagen {
+    position: absolute;
+    top: 35%; 
+    left: 190px; 
+    font-family: 'Romanesco'; 
+    font-size: 96px; 
+    color: #000000; 
+}
+.texto-sobre-imagen2 {
+    width: 500px;
+    position: absolute;
+    top: 55%; 
+    left: 190px; 
+    font-family: 'Inter';
+    font-size: 32px;
+    font-weight: 600;
+    color: #000000;
+}
+.reserva{
+    height: 100px;
+    background: #F2F6F6;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-transform: uppercase;
+    gap: 30px;
+    font-family: 'Inter';
+    font-size: 16px;
+}
+.reserva input{
+    border: none;
+    height: 50px;
+    width: 295px;
+    text-transform: uppercase;
+    padding-left: 10px;
+    border-radius: 15px 15px 15px 15px;
+    background: #ffffff;
+}
+#reserva-cita{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+#codigo-promocional{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.card-container{
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+    background: #ffffff; /*Cambiar a blanco*/
+    padding: 100px 0px;
+    font-family: 'Inter';
+}
+.card{
+    background: #A3A656;
+    border-radius: 15px 15px 0px 0px;
+    width: 300px;
+    text-align: center;
+}
+.titulo{
+    font-size: 32px;
+    font-weight: 600;
+    color: #ffffff;
+    padding: 10px 0px;
+}
+.card .imagen-reservas{
+    width: 300px;
+    height: 226px;
+}
+.card .imagen-reservas img{
+    width: 100%;
+    height: auto;
+}
+.descripcion{
+    font-size: 16px;
+    text-align: left;
+    padding: 10px 0px;
+    background: #ffffff;
+}
+.precio-boton{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background: #ffffff;
+}
+.precio{
+    font-size: 32px;
+    font-weight: 600;
+    padding-left: 10px;
+}
+.add-button{
+    padding-right: 10px;
+}
+.add-button a{
+    background: #A3A656;
+    padding: 10px 30px;
+    border-radius: 35px 35px 35px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.add-button a:hover{
+    background: #384001;
+}
+.container-membresias{
+    height: 770px;
+    background: #F2F6F6;
+    display: flex;
+    flex-direction: column;
+}
+.container-membresias h1{
+    font-size: 32px;
+    font-family: 'Inter';
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 50px;
+}
+.card-membresias{
+    display: flex;
+    justify-content: center;
+    gap: 134px;
+}
+.membresia{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: 'Inter';
+}
+.imagen-membresias {
+    width: 233px; /* Ancho y alto del círculo interno */
+    height: 233px;
+    background: #ffffff;
+    border: 11px solid #384001; /* Grosor y color del borde */
+    border-radius: 50%; /* Hace que el contenedor sea circular */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    font-weight: bold;
+}
+.titulo-membresia{
+    font-size: 32px;
+    font-weight: 600;
+    text-align: center;
+    padding-bottom: 60px;
+    text-transform: uppercase;
+    padding-top: 5px;
+}
+.add-button-membresia a{
+    background: #A3A656;
+    padding: 20px 70px;
+    border-radius: 35px 35px 35px 35px;
+    font-size: 16px;
+    font-weight: 600;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #ffffff;
+}
+.add-button-membresia a:hover{
+    background: #384001;
+}
+.beneficios{
+    padding: 40px 0px;
+}
+.footer {
+    height: 97px;
+    background: #384001;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    font-family: 'Inter';
+}
+.menuFooter1{
+    padding: 0px 0px 0px 70px;
+}
+.menuFooter1 ul {
+    list-style: none;
+    padding: 0px 0px;
+} 
+.menuFooter1 ul li{
+    display: inline-block;
+    padding-right: 40px;
+}
+.menuFooter1 ul li a{
+    text-decoration: none;
+    font-size: 16px;
+    color: #A3A656;
+    text-transform: uppercase;
+}
+.menuFooter1 :hover {
+    color: #FFFF00;
+}
+.menuFooter2 :hover {
+    color: #FFFF00;
+}
+#redes{
+    color: #A3A656;
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    font-size: 16px;
+    text-transform: uppercase;
+}
+#images-youtube{
+    padding-right: 50px;
+}
