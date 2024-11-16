@@ -3,7 +3,7 @@
     src: url('../fonts/Romanesco-Regular.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
     font-weight: normal;
     font-style: normal;
-}
+} 
 @font-face {
     font-family: 'Inter';
     src: url('../fonts/Inter-VariableFont_opsz,wght.ttf') format('truetype'); /* Ajusta la ruta si es necesario */
@@ -15,11 +15,25 @@
 .kv-align-items-center{align-items: center}
 
 /*background*/
+.kv-background-384001{background: #384001}
 .kv-background-A3A656{background: #A3A656}
+.kv-background-F2F6F6{background: #F2F6F6}
+.kv-background-FFFFFF{background: #FFFFFF}
+.kv-background-384001 :hover{background: #384001}
+
+/*border*/
+.kv-border-none{border: none}
+.kv-border-11-384001{border: 11px solid #384001}
+.kv-border-radius-50{border-radius: 50%}
+.kv-border-radius-15px{border-radius: 15px}
+.kv-border-radius-35px{border-radius: 35px}
+.kv-border-radius-15-15-0-0px{border-radius: 15px 15px 0px 0px}
 
 /*color*/
 .kv-color-amarillo :hover {color: #FFFF00}
 .kv-color-negro{color: #000000}
+.kv-color-A3A656{color: #A3A656}
+.kv-color-blanco{color: #FFFFFF}
 
 /*display*/
 .kv-display-flex{display: flex}
@@ -28,254 +42,88 @@
 /*font*/
 .kv-font-family-LucidaSans{font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif}
 .kv-font-family-Inter{font-family: 'Inter'}
+.kv-font-family-Romanesco{font-family: 'Romanesco'}
 .kv-font-size-14{font-size: 14px}
 .kv-font-size-16{font-size: 16px}
+.kv-font-size-32{font-size: 32px}
+.kv-font-size-96{font-size: 96px}
+.kv-font-weight-600{font-weight: 600}
+.kv-font-weight-bold{font-weight: bold}
+
+/*flex*/
+.kv-flex-direction-column{flex-direction: column}
 
 /*gap*/
 .kv-gap-10{gap: 10px}
 .kv-gap-15{gap: 15px}
+.kv-gap-20{gap: 20px}
+.kv-gap-30{gap: 30px}
 .kv-gap-40{gap: 40px}
+.kv-gap-134{gap: 134px;}
 
 /*height*/
-.kv-height-70{height: 70px}
+.kv-height-auto{height: auto}
 .kv-height-100{height: 100%}
+.kv-height-50px{height: 50px}
+.kv-height-70px{height: 70px}
+.kv-height-97px{height: 97px}
+.kv-height-100px{height: 100px}
+.kv-height-226px{height: 226px}
+.kv-height-233px{height: 233px}
+.kv-height-770px{height: 770px}
 
 /*justify*/
 .kv-justify-content-space-between{justify-content: space-between}
+.kv-justify-content-center{justify-content: center}
 
 /*list*/
 .kv-list-style-none{list-style: none}
 
+/*left*/
+.kv-left-190{left: 190px}
+
 /*margin*/
-.kv-margin-0{margin: 0px auto}
+.kv-margin-0-auto{margin: 0px auto}
 
 /*object*/
 .kv-object-fit-cover{object-fit: cover}
 
 /*padding*/
 .kv-padding-0-0{padding: 0px 0px}
+.kv-padding-3-0{padding: 3px 0px}
+.kv-padding-10-0{padding: 10px 0px}
+.kv-padding-20-0{padding: 20px 0px}
+.kv-padding-10-30{padding: 10px 30px}
+.kv-padding-100-0{padding: 100px 0px}
+.kv-padding-20-70{padding: 20px 70px}
+.kv-padding-0-0-0-70{padding: 0px 0px 0px 70px;}
+.kv-padding-left-10{padding-left: 10px} 
+.kv-padding-left-40{padding-left: 40px} 
+.kv-padding-left-50{padding-left: 50px} 
 .kv-padding-left-70{padding-left: 70px} 
-.kv-padding-right-10{padding-right: 10px;}
-.kv-padding-right-20{padding-right: 20px;}
+.kv-padding-right-10{padding-right: 10px}
+.kv-padding-right-20{padding-right: 20px}
+.kv-padding-top-5{padding-top: 5px}
+.kv-padding-bottom-50{padding-bottom: 50px}
+.kv-padding-bottom-60{padding-bottom: 60px}
+
+/*position*/
+.kv-position-absolute{position: absolute}
 
 /*text*/
 .kv-text-decoration-none{text-decoration: none}
 .kv-text-transform-uppercase{text-transform: uppercase}
+.kv-text-align-center{text-align: center}
+.kv-text-align-left{text-align: left}
+
+/*top*/
+.kv-top-35{top: 35%}
+.kv-top-55{top: 55%}
 
 /*width*/
 .kv-width-100{width: 100%}
-
-
-/*Faltantes*/
-.texto-sobre-imagen {
-    position: absolute;
-    top: 35%; 
-    left: 190px; 
-    font-family: 'Romanesco'; 
-    font-size: 96px; 
-    color: #000000; 
-}
-.texto-sobre-imagen2 {
-    width: 500px;
-    position: absolute;
-    top: 55%; 
-    left: 190px; 
-    font-family: 'Inter';
-    font-size: 32px;
-    font-weight: 600;
-    color: #000000;
-}
-.reserva{
-    height: 100px;
-    background: #F2F6F6;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-transform: uppercase;
-    gap: 30px;
-    font-family: 'Inter';
-    font-size: 16px;
-}
-.reserva input{
-    border: none;
-    height: 50px;
-    width: 295px;
-    text-transform: uppercase;
-    padding-left: 10px;
-    border-radius: 15px 15px 15px 15px;
-    background: #ffffff;
-}
-#reserva-cita{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-#codigo-promocional{
-    display: flex;
-    align-items: center;
-    gap: 20px;
-}
-.card-container{
-    display: flex;
-    justify-content: center;
-    gap: 134px;
-    background: #ffffff; /*Cambiar a blanco*/
-    padding: 100px 0px;
-    font-family: 'Inter';
-}
-.card{
-    background: #A3A656;
-    border-radius: 15px 15px 0px 0px;
-    width: 300px;
-    text-align: center;
-}
-.titulo{
-    font-size: 32px;
-    font-weight: 600;
-    color: #ffffff;
-    padding: 10px 0px;
-}
-.card .imagen-reservas{
-    width: 300px;
-    height: 226px;
-}
-.card .imagen-reservas img{
-    width: 100%;
-    height: auto;
-}
-.descripcion{
-    font-size: 16px;
-    text-align: left;
-    padding: 10px 0px;
-    background: #ffffff;
-}
-.precio-boton{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    background: #ffffff;
-}
-.precio{
-    font-size: 32px;
-    font-weight: 600;
-    padding-left: 10px;
-}
-.add-button{
-    padding-right: 10px;
-}
-.add-button a{
-    background: #A3A656;
-    padding: 10px 30px;
-    border-radius: 35px 35px 35px 35px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-.add-button a:hover{
-    background: #384001;
-}
-.container-membresias{
-    height: 770px;
-    background: #F2F6F6;
-    display: flex;
-    flex-direction: column;
-}
-.container-membresias h1{
-    font-size: 32px;
-    font-family: 'Inter';
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 50px;
-}
-.card-membresias{
-    display: flex;
-    justify-content: center;
-    gap: 134px;
-}
-.membresia{
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    font-family: 'Inter';
-}
-.imagen-membresias {
-    width: 233px; /* Ancho y alto del círculo interno */
-    height: 233px;
-    background: #ffffff;
-    border: 11px solid #384001; /* Grosor y color del borde */
-    border-radius: 50%; /* Hace que el contenedor sea circular */
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-    font-weight: bold;
-}
-.titulo-membresia{
-    font-size: 32px;
-    font-weight: 600;
-    text-align: center;
-    padding-bottom: 60px;
-    text-transform: uppercase;
-    padding-top: 5px;
-}
-.add-button-membresia a{
-    background: #A3A656;
-    padding: 20px 70px;
-    border-radius: 35px 35px 35px 35px;
-    font-size: 16px;
-    font-weight: 600;
-    text-decoration: none;
-    text-transform: uppercase;
-    color: #ffffff;
-}
-.add-button-membresia a:hover{
-    background: #384001;
-}
-.beneficios{
-    padding: 40px 0px;
-}
-.footer {
-    height: 97px;
-    background: #384001;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    font-family: 'Inter';
-}
-.menuFooter1{
-    padding: 0px 0px 0px 70px;
-}
-.menuFooter1 ul {
-    list-style: none;
-    padding: 0px 0px;
-} 
-.menuFooter1 ul li{
-    display: inline-block;
-    padding-right: 40px;
-}
-.menuFooter1 ul li a{
-    text-decoration: none;
-    font-size: 16px;
-    color: #A3A656;
-    text-transform: uppercase;
-}
-.menuFooter1 :hover {
-    color: #FFFF00;
-}
-.menuFooter2 :hover {
-    color: #FFFF00;
-}
-#redes{
-    color: #A3A656;
-    display: flex;
-    align-items: center;
-    gap: 30px;
-    font-size: 16px;
-    text-transform: uppercase;
-}
-#images-youtube{
-    padding-right: 50px;
-}
+.kv-width-218px{width: 218px}
+.kv-width-233px{width: 233px}
+.kv-width-295px{width: 295px}
+.kv-width-300px{width: 300px}
+.kv-width-500px{width: 500px}

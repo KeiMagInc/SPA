@@ -6,17 +6,17 @@
     <link rel="stylesheet" href="css/estilos.css">
     <title>SPA</title>
 </head>
-<body class="kv-margin-0">
+<body class="kv-margin-0-auto">
     <main>
         <header>
-            <div class="kv-height-70 kv-background-A3A656 kv-display-flex kv-align-items-center kv-justify-content-space-between">
+            <div class="kv-height-70px kv-background-A3A656 kv-display-flex kv-align-items-center kv-justify-content-space-between">
                 <div class="kv-color-amarillo kv-padding-left-70">
-                    <ul class="kv-list-style-none kv-margin-0 kv-padding-0-0">
-                        <li class="kv-margin-0 kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Promociones</a></li>
-                        <li class="kv-margin-0 kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Fotos</a></li>
-                        <li class="kv-margin-0 kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Servicios</a></li>
-                        <li class="kv-margin-0 kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Mapa</a></li>
-                        <li class="kv-margin-0 kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Contacto</a></li>
+                    <ul class="kv-list-style-none kv-margin-0-auto kv-padding-0-0">
+                        <li class="kv-margin-0-auto kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Promociones</a></li>
+                        <li class="kv-margin-0-auto kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Fotos</a></li>
+                        <li class="kv-margin-0-auto kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Servicios</a></li>
+                        <li class="kv-margin-0-auto kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Mapa</a></li>
+                        <li class="kv-margin-0-auto kv-display-inline-block"><a class="kv-text-decoration-none kv-font-size-16 kv-font-family-LucidaSans kv-color-negro kv-text-transform-uppercase kv-padding-right-20" href="">Contacto</a></li>
                     </ul>
                 </div>
                 <div class="kv-display-flex kv-align-items-center kv-gap-40 kv-font-family-Inter kv-font-size-14 kv-color-amarillo">
@@ -33,152 +33,143 @@
             </div>
         </header>
         <section>
-            <article class="kv-display-flex">
-                <div>
+            <article>
+                <div class="kv-display-flex">
                     <img src="images/main.png" alt="" class="kv-width-100 kv-height-100 kv-object-fit-cover">
-                    <div class="texto-sobre-imagen">SPA - Todos</div>
-                    <div class="texto-sobre-imagen2">Regálate un momento de paz y consiente a tu piel en el mejor lugar</div>
+                    <div class="kv-position-absolute kv-top-35 kv-left-190 kv-font-family-Romanesco kv-font-size-96 kv-color-negro">SPA - Todos</div>
+                    <div class="kv-width-500px kv-position-absolute kv-top-55 kv-left-190 kv-font-family-Inter kv-font-size-32 kv-font-weight-600 kv-color-negro">Regálate un momento de paz y consiente a tu piel en el mejor lugar</div>
                 </div>            
             </article>
         </section>
         <section>
             <article>
-                <div class="reserva">
-                    <div id="reserva-cita">
+                <div class="kv-height-100px kv-background-F2F6F6 kv-display-flex kv-align-items-center kv-justify-content-center kv-text-transform-uppercase kv-gap-30 kv-font-family-Inter kv-font-size-16">
+                    <div class="kv-display-flex kv-align-items-center kv-gap-20">
                         Reserva tu cita:
-                        <input type="text" name="cita">
+                        <input class="kv-border-none kv-height-50px kv-width-295px kv-text-transform-uppercase kv-padding-left-10 kv-border-radius-15px kv-background-FFFFFF" type="text" name="cita">
                     </div>
-                    <div id="codigo-promocional">
+                    <div class="kv-display-flex kv-align-items-center kv-gap-20">
                         Código Promocional
-                        <input type="text" name="codigo" placeholder="Código">
+                        <input class="kv-border-none kv-height-50px kv-width-295px kv-text-transform-uppercase kv-padding-left-10 kv-border-radius-15px kv-background-FFFFFF" type="text" name="codigo" placeholder="Codigo">
                     </div>  
                 </div>
             </article>
             <article>
-                <div class="card-container">
-                    <div class="card">
-                        <div class="titulo">Masaje de pies</div>
-                        <div class="imagen-reservas">
-                            <img src="images/pies.png" alt="">
+                <div class="kv-display-flex kv-justify-content-center kv-gap-134 kv-background-FFFFFF kv-padding-100-0 kv-font-family-Inter">
+                    <div class="kv-background-A3A656 kv-border-radius-15-15-0-0px kv-width-300px kv-text-align-center">
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-color-blanco kv-padding-10-0">Masaje de pies</div>
+                        <div class="kv-width-300px kv-height-226px">
+                            <img class="kv-width-100 kv-height-auto" src="images/pies.png" alt="">
                         </div>
                         <div>
-                            <div class="descripcion">Esta es una descripción de la opción en cuestión ...</div>
-
-                            <div class="precio-boton">
-                                <div class="precio">$65</div>
-                                <div class="add-button">
-                                    <a href="">Reservar</a>
+                            <div class="kv-font-size-16 kv-text-align-left kv-padding-10-0 kv-background-FFFFFF">Esta es una descripción de la opción en cuestión .....</div>
+                            <div class="kv-display-flex kv-align-items-center kv-justify-content-space-between kv-background-FFFFFF">
+                                <div class="kv-font-size-32 kv-font-weight-600 kv-padding-left-10">$65</div>
+                                <div class="kv-padding-right-10">
+                                    <a class="kv-background-A3A656 kv-padding-10-30 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco kv-background-384001" href="">Reservar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="titulo">Masaje relajante</div>
-                        <div class="imagen-reservas">
-                            <img src="images/relajante.png" alt="">
+                    <div class="kv-background-A3A656 kv-border-radius-15-15-0-0px kv-width-300px kv-text-align-center">
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-color-blanco kv-padding-10-0">Masaje relajante</div>
+                        <div class="kv-width-300px kv-height-226px">
+                            <img class="kv-width-100 kv-height-auto" src="images/relajante.png" alt="">
                         </div>
                         <div>
-                            <div class="descripcion">Esta es una descripción de la opción en cuestión ...</div>
-
-                            <div class="precio-boton">
-                                <div class="precio">$60</div>
-                                <div class="add-button">
-                                    <a href="">Reservar</a>
+                            <div class="kv-font-size-16 kv-text-align-left kv-padding-10-0 kv-background-FFFFFF">Esta es una descripción de la opción en cuestión .....</div>
+                            <div class="kv-display-flex kv-align-items-center kv-justify-content-space-between kv-background-FFFFFF">
+                                <div class="kv-font-size-32 kv-font-weight-600 kv-padding-left-10">$60</div>
+                                <div class="kv-padding-right-10">
+                                    <a class="kv-background-A3A656 kv-padding-10-30 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco kv-background-384001" href="">Reservar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
-                    <div class="card">
-                        <div class="titulo">Masaje con bambú</div>
-                        <div class="imagen-reservas">
-                            <img src="images/bambu.png" alt="">
+                    <div class="kv-background-A3A656 kv-border-radius-15-15-0-0px kv-width-300px kv-text-align-center">
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-color-blanco kv-padding-10-0">Masaje con bambú</div>
+                        <div class="kv-width-300px kv-height-226px">
+                            <img class="kv-width-100 kv-height-auto" src="images/bambu.png" alt="">
                         </div>
                         <div>
-                            <div class="descripcion">Esta es una descripción de la opción en cuestión ...</div>
-
-                            <div class="precio-boton">
-                                <div class="precio">$58</div>
-                                <div class="add-button">
-                                    <a href="">Reservar</a>
+                            <div class="kv-font-size-16 kv-text-align-left kv-padding-10-0 kv-background-FFFFFF">Esta es una descripción de la opción en cuestión .....</div>
+                            <div class="kv-display-flex kv-align-items-center kv-justify-content-space-between kv-background-FFFFFF">
+                                <div class="kv-font-size-32 kv-font-weight-600 kv-padding-left-10">$58</div>
+                                <div class="kv-padding-right-10">
+                                    <a class="kv-background-A3A656 kv-padding-10-30 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco kv-background-384001" href="">Reservar</a>
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
             </article>
-            <article class="container-membresias">
-                <h1>Haste socio y prueba nuestros beneficios</h1>
-                <div class="card-membresias">
-                    <div class="membresia">
-                        
-                        <div class="imagen-membresias">
+            <article class="kv-height-770px kv-background-F2F6F6 kv-display-flex kv-flex-direction-column">
+                <h1 class="kv-font-size-32 kv-font-family-Inter kv-font-weight-600 kv-text-align-center kv-padding-bottom-50">Haste socio y prueba nuestros beneficios</h1>
+                <div class="kv-display-flex kv-justify-content-center kv-gap-134">
+                    <div class="kv-display-flex kv-flex-direction-column kv-align-items-center kv-font-family-Inter">
+                        <div class="kv-width-233px kv-height-233px kv-background-FFFFFF kv-border-11-384001 kv-border-radius-50 kv-display-flex kv-align-items-center kv-justify-content-center text-align-center kv-font-weight-bold">
                             <img src="images/gold.png" alt="">
                         </div>
-                        <div class="titulo-membresia">Gold</div>
-                        <div class="add-button-membresia">
-                            <a href="">Ver condiciones</a>
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-text-align-center kv-padding-bottom-60 kv-text-transform-uppercase kv-padding-top-5">Gold</div>
+                        <div>
+                            <a class="kv-background-384001 kv-background-A3A656 kv-padding-20-70 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco" href="">Ver condiciones</a>
                         </div>
-                        <div class="beneficios">
+                        <div class="kv-padding-20-0 kv-width-218px">
                             <ul>
-                                <li>Gimnasio</li>
-                                <li>Piscina</li>
-                                <li>Todos los tratamientos</li>
+                                <li class="kv-padding-3-0">Gimnasio</li>
+                                <li class="kv-padding-3-0">Piscina</li>
+                                <li class="kv-padding-3-0">Todos los tratamientos</li>
                             </ul>
                         </div>
                     </div>
-                    <div class="membresia">
-                        
-                        <div class="imagen-membresias">
+                    <div class="kv-display-flex kv-flex-direction-column kv-align-items-center kv-font-family-Inter">
+                        <div class="kv-width-233px kv-height-233px kv-background-FFFFFF kv-border-11-384001 kv-border-radius-50 kv-display-flex kv-align-items-center kv-justify-content-center text-align-center kv-font-weight-bold">
                             <img src="images/premium.png" alt="">
                         </div>
-                        <div class="titulo-membresia">Premium</div>
-                        <div class="add-button-membresia">
-                            <a href="">Ver condiciones</a>
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-text-align-center kv-padding-bottom-60 kv-text-transform-uppercase kv-padding-top-5">Premium</div>
+                        <div>
+                            <a class="kv-background-384001 kv-background-A3A656 kv-padding-20-70 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco" href="">Ver condiciones</a>
                         </div>
-                        <div class="beneficios">
+                        <div class="kv-padding-20-0 kv-width-218px">
                             <ul>
-                                <li>Gimnasio</li>
-                                <li>Todos los tratamientos</li>
+                                <li class="kv-padding-3-0">Gimnasio</li>
+                                <li class="kv-padding-3-0">Todos los tratamientos</li>
                             </ul>
-
                         </div>
                     </div>
-                    <div class="membresia">
-                        
-                        <div class="imagen-membresias">
+                    <div class="kv-display-flex kv-flex-direction-column kv-align-items-center kv-font-family-Inter">
+                        <div class="kv-width-233px kv-height-233px kv-background-FFFFFF kv-border-11-384001 kv-border-radius-50 kv-display-flex kv-align-items-center kv-justify-content-center text-align-center kv-font-weight-bold">
                             <img src="images/plate.png" alt="">
                         </div>
-                        <div class="titulo-membresia">Plate</div>
-                        <div class="add-button-membresia">
-                            <a href="">Ver condiciones</a>
+                        <div class="kv-font-size-32 kv-font-weight-600 kv-text-align-center kv-padding-bottom-60 kv-text-transform-uppercase kv-padding-top-5">Plate</div>
+                        <div>
+                            <a class="kv-background-384001 kv-background-A3A656 kv-padding-20-70 kv-border-radius-35px kv-font-size-16 kv-font-weight-600 kv-text-decoration-none kv-text-transform-uppercase kv-color-blanco" href="">Ver condiciones</a>
                         </div>
-                        <div class="beneficios">
+                        <div class="kv-padding-20-0 kv-width-218px">
                             <ul>
-                                <li>Tratamiento faciales</li>
+                                <li class="kv-padding-3-0">Tratamientos faciales</li>
                             </ul>
-
                         </div>
                     </div>
                 </div>
             </article>
         </section>
         <footer>
-            <div class="footer">
-                <div class="menuFooter1">
-                    <ul>
-                        <li><a href="">Politicas de cookies</a></li>
-                        <li><a href="">Aviso legal</a></li>
-                        <li><a href="">Protección de datos</a></li>
-                        <li><a href="">Mapa del sitio</a></li>
+            <div class="kv-height-97px kv-background-384001 kv-display-flex kv-align-items-center kv-justify-content-space-between kv-font-family-Inter">
+                <div class="kv-padding-0-0-0-70 kv-color-amarillo">
+                    <ul class="kv-list-style-none kv-padding-0-0">
+                        <li class="kv-display-inline-block kv-padding-left-40"><a class="kv-text-decoration-none kv-font-size-16 kv-background-A3A656 kv-text-transform-uppercase" href="">Politicas de cookies</a></li>
+                        <li class="kv-display-inline-block kv-padding-left-40"><a class="kv-text-decoration-none kv-font-size-16 kv-background-A3A656 kv-text-transform-uppercase" href="">Aviso legal</a></li>
+                        <li class="kv-display-inline-block kv-padding-left-40"><a class="kv-text-decoration-none kv-font-size-16 kv-background-A3A656 kv-text-transform-uppercase" href="">Protección de datos</a></li>
+                        <li class="kv-display-inline-block kv-padding-left-40"><a class="kv-text-decoration-none kv-font-size-16 kv-background-A3A656 kv-text-transform-uppercase" href="">Mapa del sitio</a></li>
                     </ul>
                 </div>
-                <div class="menuFooter2">
-                    <div id="redes">
-                        <div>Siguenos en</div>
-                        <img src="images/rs_facebook.png" alt="" id="images-facebook">
-                        <img src="images/rs_twiter.png" alt="" id="images-twiter">
-                        <img src="images/rs_youtube.png" alt="" id="images-youtube">
-    
+                <div class="kv-color-amarillo">
+                    <div class="kv-color-A3A656 kv-display-flex kv-align-items-center kv-gap-30 kv-font-size-16 kv-text-transform-uppercase">
+                        <div>Sín mguenos en</div> 
+                        <img src="images/rs_facebook.png" alt="">
+                        <img src="images/rs_twiter.png" alt="">
+                        <img src="images/rs_youtube.png" alt="" class="kv-padding-left-50">
                     </div>
                 </div>
             </div>
